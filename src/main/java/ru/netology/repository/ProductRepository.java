@@ -9,7 +9,8 @@ public class ProductRepository {
             new Book(1,"Master and Margarita", 100, "M. Bulgakov"),
             new Book(2, "Radiance", 150, "Stephen King"),
             new Smartphone(3, "GalaxyS10", 700, "Samsung"),
-            new Smartphone(4, "Honore30i", 800, "Huawei")
+            new Smartphone(4, "Honore30i", 800, "Huawei"),
+            new Smartphone(5, "Note10", 900, "Samsung")
     };
 
     public void save(Product item) {
